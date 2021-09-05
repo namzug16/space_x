@@ -26,7 +26,7 @@ $ flutter pub get
 # freezed and its generated files, so you would have to do this
 $ flutter pub run build_runner build --delete-conflicting-outputs
 
-# at this points the should not be a problem and it is possible to 
+# at this point there should not be a problem and it is possible to 
 # review the code and use the app
 $ flutter run
 
