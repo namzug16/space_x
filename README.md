@@ -7,7 +7,7 @@ Before starting, you need to have [Git](https://git-scm.com) and [Flutter](https
 ## Installing the Project
 ```bash
 #clone this project
-$ git clone hhtps://github.com/namzug16/...
+$ git clone hhtps://github.com/namzug16/space_x.git
 
 #go into the directory cloned
 $ cd space_x
