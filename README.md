@@ -66,7 +66,7 @@ When using
 it with riverpod you need to call a reference of this provider to be able to listen the state in question and there are ,indeed, many 
 ways of doing this, however for simplicity and ease of reading I have decided to use hooks, with hooks you can read a provider
 by using ```useProvider()``` inside a ```HookWidget```. In the case of a State Notifier Provider you need to read only
-the provider to get the state , i.e. ```useProvider(myStateNotifierProvider)``` and if you can to access the methods inside your State Notifier 
+the provider to get the state , i.e. ```useProvider(myStateNotifierProvider)``` and if you want to access the methods inside your State Notifier 
 you have to use the notifier inside, like this ```useProvider(myStateNotifierProvider.notifier)```.
 
 **States**
@@ -83,4 +83,4 @@ Mocktail was used to mock the repository which implements an interface, which th
 implements too.
 
 Then I override the provider of the repository by changing the real repository with the mock repository 
-which later on will be tested with the controller.
+and finally I test the controller.
