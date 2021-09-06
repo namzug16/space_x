@@ -7,8 +7,6 @@ final spaceXLaunchesListControllerProvider = StateNotifierProvider<
     SpaceXLaunchesListController,
     LaunchListStates>((ref) => SpaceXLaunchesListController(ref.read));
 
-final errorLaunchesListController = StateProvider<String?>((_) => null);
-
 
 // * this controller is basically a ViewModel implemented with riverpod and
 // * stateNotifier.
